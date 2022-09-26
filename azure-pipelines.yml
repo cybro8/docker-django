@@ -12,7 +12,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '5f72042c-b318-4767-88ef-2669c33b1175'
   imageRepository: 'cybrodockerdjango'
-  containerRegistry: 'djangoenv.azurecr.io'
+  containerRegistry: 'containerstests.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
